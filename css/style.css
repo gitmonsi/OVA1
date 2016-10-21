@@ -280,9 +280,9 @@ background-color: #666;
 }
 h1{
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+/*	color: white;	*/
 	margin-left: 10px;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 }
 h2{
@@ -362,6 +362,7 @@ p{
 	padding: 10px;
 	text-align: justify;
 }
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
