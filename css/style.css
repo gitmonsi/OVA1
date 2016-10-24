@@ -322,9 +322,9 @@ background-color: #666;
 }
 h1{
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+/*	color: white;	*/
 	margin-left: 10px;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 }
 h2{
@@ -341,6 +341,14 @@ h3{
 	color: white;
 	font-size: 11px;
 	text-align: center;
+}
+h4{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-top: #006680;
 }
 header{
 	width: 1000px;
@@ -368,6 +376,7 @@ li{
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
 }
+
 section{
 	width: 713px;
 	background: white;
@@ -376,6 +385,14 @@ section{
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
+#centro{
+	width: 1000px;
+	background: white;
+	height: 730px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}	
 aside{
 	width: 280px;
 	background: white;
@@ -404,6 +421,7 @@ p{
 	padding: 10px;
 	text-align: justify;
 }
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
@@ -424,6 +442,26 @@ p{
 	color: #003F5E;
 	text-decoration: none;
 }
+
+
+.menu li:hover ul {
+        display:block;
+        position: absolute;
+        padding: 0;
+        margin:-16px;
+        margin-top:10px;
+        width: 10px;
+        float: none;
+                }
+.menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:130px;
+        }
+
+
+
+
 
 /*SEUDO CLASES*/
 p {
