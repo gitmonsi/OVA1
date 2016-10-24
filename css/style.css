@@ -264,6 +264,48 @@ div {
 	left: 516px;
 	top: 1012px;
 }
+
+
+
+
+
+#simon{
+width: 500px;
+height: auto;
+background-color:rgb(228,242,244);
+float:left;
+border-radius:10px;
+margin: 10px;
+box-shadow: 3px 3px 5px #888;
+
+}
+
+#mauricio{
+width: 500px;
+height: auto;
+background-color:rgb(228,242,244);
+float: left;
+border-radius:10px;
+margin: 10px;
+box-shadow: 3px 3px 5px #888;
+}
+
+#michel{
+width: 500px;
+height: auto;
+background-color:rgb(228,242,244);
+float: left;
+border-radius:10px;
+margin: 10px;
+box-shadow: 3px 3px 5px #888;
+}
+
+
+
+
+
+
+
 #contenidos{
 	width: 1000px;
 	height: auto;
